@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  padding: 0.75em;
+  box-shadow: 0px -3px 14px rgba(0, 0, 0, 0.27);
+}
+
+.navbar__ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.navbar__li {
+  padding: 0.25em;
+}
+
+.navbar__div-brand {
+  padding: 0.25em;
+  flex-grow: 3;
+}
