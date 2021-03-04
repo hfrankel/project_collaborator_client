@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto';
 }
 :root {
   --primary: #18a0fb;
+  --primary-faded: #a7dcff;
+  --highlight: #f4511e;
 }

@@ -12,7 +12,12 @@
 }
 
 .navbar__li {
-  padding: 0.25em;
+  padding: 0.25em 0.75em;
+}
+
+.navbar__li:hover {
+  color: var(--highlight);
+  cursor: pointer;
 }
 
 .navbar__div-brand {

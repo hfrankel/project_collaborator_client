@@ -5,3 +5,9 @@
   border: none;
   border-radius: 4px;
 }
+
+.btn:hover {
+  cursor: pointer;
+  color: var(--highlight);
+  background-color: var(--primary-faded);
+}
