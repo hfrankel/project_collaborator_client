@@ -1,0 +1,6 @@
+.rectangle {
+  height: 16em;
+  width: 36vw;
+  background-color: var(--primary-faded);
+  border-radius: 0.25em;
+}
