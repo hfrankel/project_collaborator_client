@@ -10,6 +10,7 @@ const App = () => {
   return (
     <div>
       <Navbar>{isAuthenticated ? <LogoutButton /> : <LoginButton />}</Navbar>
+      {/* Keep auth logic out of navbar for reusability */}
       <br />
       <Profile />
     </div>
